@@ -1,0 +1,94 @@
+// init
+$primary-color: #ff8a00;
+
+/* layout library */
+@import "layout";
+@import "typography";
+
+/*
+ * global
+ */
+body {
+    overflow-y: scroll;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", Tahoma, Arial, STHeiti, sans-serif;
+    /*padding-top: 110px;*/
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+input, button, a {
+    outline: none;
+}
+
+.btn {
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $primary-color;
+    }
+}
+
+/*
+ * header
+ */
+.navbar-brand {
+    height: 110px;
+}
+
+.search-form {
+    height: 60px;
+    padding-top: 11px;
+}
+
+.navbar {
+    border-bottom: 5px solid $primary-color;
+    margin-bottom: 0;
+}
+
+.nav > li > a {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav > li > a {
+    border-right: 0 none;
+    border-left: 0 none;
+}
+
+.navbar .navbar-nav > li > a {
+    &:hover,
+    &:focus,
+    &:active {
+        background: none;
+    }
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: $primary-color;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: $primary-color;
+    text-shadow: 0 1px 1px rgba(255,255,255,.5);
+}
+
+/*
+ * footer
+ */
+.global-footer{
+    border-top:5px solid $primary-color;
+    height: 210px;
+    background: url("../images/footer-bg.jpg") no-repeat center top;
+    color: #fff;
+}
