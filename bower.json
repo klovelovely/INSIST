@@ -1,0 +1,20 @@
+{
+  "name": "INSIST",
+  "homepage": "https://github.com/klovelovely/INSIST",
+  "authors": [
+    "Kavalon Wong <klovelovely@live.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Swiper": "swiper#^3.3.1"
+  }
+}

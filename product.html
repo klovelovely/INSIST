@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.scss"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Lorem, Ipsum, Quisque">
+    <meta name="description"
+          content="Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.">
+    <meta name="author" content="">
+    <title>Lorem Ipsum | Quisque velit nisi, pretium ut lacinia in, elementum id enim.</title>
+
+    <!-- Bootstrap & Swiper -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/Swiper/dist/css/swiper.min.css" rel="stylesheet">
+
+    <!-- Customized for lieyunwang -->
+    <link rel="stylesheet" href="styles/main.css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- head -->
+<header class="global-header">
+
+    <!-- logo & 导航 -->
+    <nav class="navbar navbar-default"><!-- navbar-fixed-top -->
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:">
+                    <img src="images/logo.png" alt="INSIST" class="img-responsive">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="search-form">
+                    <div class="row">
+                        <div class="col-md-4 pull-right">
+                            <form action="" method="get">
+                                <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </span>
+                                    <input type="text" class="form-control" placeholder="请输入您要搜索的内容">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false"><span class="layout-vam">产品 </span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="product.html">键盘</a></li>
+                            <li><a href="product.html">鼠标</a></li>
+                            <li><a href="product.html">鼠标垫</a></li>
+                            <li><a href="product.html">护目镜</a></li>
+                            <!--<li role="separator" class="divider"></li>-->
+                            <li><a href="product.html">附件</a></li>
+                            <li><a href="product.html">其他</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:">支持</a></li>
+                    <li><a href="javascript:">商城</a></li>
+                    <li><a href="javascript:">新闻媒体</a></li>
+                    <li><a href="javascript:">关于我们</a></li>
+                    <li><a href="javascript:">INSIST 全球</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>
+
+<!-- container -->
+<article class="global-container">
+
+    <!-- thumbs list -->
+    <div class="swiper-container gallery-product-category">
+        <div class="swiper-wrapper">
+            <a href="javascript:" class="swiper-slide" style="background-image:url(images/product_foot_slider1.png)"></a>
+            <a href="javascript:"  class="swiper-slide active" style="background-image:url(images/product_foot_slider3.png)"></a>
+            <a href="javascript:"  class="swiper-slide" style="background-image:url(images/product_foot_slider2.png)"></a>
+            <a href="javascript:"  class="swiper-slide" style="background-image:url(images/product_foot_slider1.png)"></a>
+            <a href="javascript:"  class="swiper-slide" style="background-image:url(images/product_foot_slider2.png)"></a>
+            <a href="javascript:"  class="swiper-slide" style="background-image:url(images/product_foot_slider3.png)"></a>
+        </div>
+
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+
+    <!-- slider -->
+    <div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!--<ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>-->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="javascript:"><img src="images/product_showcase.jpg" class="img-responsive center-block" width="1920" height="500" alt="Responsive image"></a>
+                </div>
+                <!--<div class="item">
+                    <img src="images/product_showcase.jpg" class="img-responsive center-block" width="1920" height="500" alt="Responsive image">
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+
+        <div class="row layout-pt15">
+            <img src="images/product_detail.jpg" width="100%" />
+        </div>
+
+        <div class="row layout-pt20 layout-pb50">
+
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider2.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider3.png)"></div>
+                </div>
+
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider2.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(images/product_foot_slider3.png)"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- foot -->
+<footer class="global-footer">
+
+    <div class="container layout-ph20">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="foot-logo text-right layout-ph0">
+                    <img src="images/logo.png" width="165" alt="">
+                </div>
+            </div>
+            <div class="col-md-8 text-left">
+                <div class="layout-mh10">
+                    <span class="layout-pr10">BORN FOR GREATNESS™</span>
+                    <a class="layout-pr15" href="javascript:">关于iNSIST</a>
+                    <a class="layout-pr15" href="javascript:">联系我们</a>
+                    <a class="layout-pr15" href="javascript:">发货与退货</a>
+                    <a class="layout-pr15" href="javascript:">条款与条件</a>
+                    <a class="layout-pr15" href="javascript:">隐私政策</a>
+                </div>
+                <div class="layout-mh10">
+                    Copyright © 1999-2016 INSIST (Asia-Pacific) Co. Ltd 京ICP备12035791号. All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- jQuery & Bootstrap & Swiper -->
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bower_components/Swiper/dist/js/swiper.jquery.min.js"></script>
+
+<!-- Customized -->
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
