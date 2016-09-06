@@ -30,11 +30,28 @@ input, button, a {
     outline: none;
 }
 
+dl {
+    dt, dd {
+        line-height: 2;
+    }
+}
+
 .btn {
     &:hover,
     &:focus,
     &:active {
         border-color: $primary-color;
+    }
+}
+
+.carousel-indicators {
+    li {
+        opacity:.38;
+        transition:.3s all ease-out;
+        &.active{
+            width:30px;
+            opacity:.62;
+        }
     }
 }
 
@@ -98,8 +115,6 @@ input, button, a {
     width: 500px;
 }
 
-
-
 .dropdown-menu > li {
     display: inline-block;
 }*/
@@ -115,6 +130,18 @@ input, button, a {
 }
 
 /*
+ * global-container
+ */
+.global-container {
+    min-height: 500px;
+    .page-title {
+        margin-top: 70px;
+        margin-bottom: 90px;
+        color: #f39c12;
+    }
+}
+
+/*
  * Swiper
  */
 .swiper-container {
@@ -122,56 +149,57 @@ input, button, a {
     height: 340px;
     margin-left: auto;
     margin-right: auto;
-}
+    .swiper-slide {
+        background-size: cover;
+        background-position: center;
+    }
+    /*  产品页 - 产品分类列表 */
+    &.gallery-product-category {
+        margin-top: 20px;
+        height: 95px;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
 
-.swiper-slide {
-    background-size: cover;
-    background-position: center;
-}
+    &.gallery-product-category .swiper-slide {
+        display: block;
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+        &:hover {
+            opacity: 1;
+        }
+    }
 
-.gallery-top {
-    height: 240px;
-}
+    &.gallery-product-category .swiper-slide-active {
+        /*opacity: 1;*/
+    }
 
-.gallery-thumbs {
-    margin-top: 20px;
-    height: 80px;
-    box-sizing: border-box;
-    padding: 10px 0;
-}
+    &.gallery-product-category .active {
+        opacity: 1;
+    }
+    /* 产品页 - 底部大图 + 缩略图 */
+    &.gallery-top {
+        height: 240px;
+    }
 
-.gallery-thumbs .swiper-slide {
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
-}
+    &.gallery-thumbs {
+        margin-top: 20px;
+        height: 80px;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
 
-.gallery-thumbs .swiper-slide-active {
-    opacity: 1;
-}
+    &.gallery-thumbs .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+    }
 
-/*  产品页 - 产品分类列表 */
-.gallery-product-category {
-    margin-top: 20px;
-    height: 80px;
-    box-sizing: border-box;
-    padding: 10px 0;
-}
-
-.gallery-product-category .swiper-slide {
-    display: block;
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
-    &:hover{
+    &.gallery-thumbs .swiper-slide-active {
         opacity: 1;
     }
 }
 
-.gallery-product-category .swiper-slide-active {
-    /*opacity: 1;*/
-}
 
-.gallery-product-category .active {
-    opacity: 1;
-}
+

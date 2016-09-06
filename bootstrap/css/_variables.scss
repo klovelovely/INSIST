@@ -8,9 +8,9 @@ $bootstrap-sass-asset-helper: false !default;
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-base:              #000 !default;
-$gray-darker:            #080808 !default; // #222
-$gray-dark:              #101010 !default;   // #333
+$gray-base:              #222 !default;
+$gray-darker:            #000 !default; // #222
+$gray-dark:              #111 !default;   // #333
 $gray:                   #52575C !default; // #555
 $gray-light:             #7A8288 !default;   // #999
 $gray-lighter:           #999 !default; // #eee
@@ -144,6 +144,7 @@ $table-border-color:            darken($gray-darker, 5%) !default;
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 $btn-font-weight:                normal !default;
+$btn-lightly-color:              #fff !default;
 
 $btn-default-color:              #ff8a00 !default;
 $btn-default-bg:                 $gray-dark !default;
@@ -153,19 +154,19 @@ $btn-primary-color:              $btn-default-color !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $btn-primary-color !default;
 
-$btn-success-color:              $btn-default-color !default;
+$btn-success-color:              $btn-lightly-color !default;
 $btn-success-bg:                 $brand-success !default;
 $btn-success-border:             $btn-success-bg !default;
 
-$btn-info-color:                 $btn-default-color !default;
+$btn-info-color:                 $btn-lightly-color !default;
 $btn-info-bg:                    $brand-info !default;
 $btn-info-border:                $btn-info-bg !default;
 
-$btn-warning-color:              $btn-default-color !default;
+$btn-warning-color:              $btn-lightly-color !default;
 $btn-warning-bg:                 $brand-warning !default;
 $btn-warning-border:             $btn-warning-bg !default;
 
-$btn-danger-color:               $btn-default-color !default;
+$btn-danger-color:               $btn-lightly-color !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              $btn-danger-bg !default;
 
@@ -703,7 +704,7 @@ $list-group-link-heading-color: #fff !default;
 //
 //##
 
-$panel-bg:                    lighten($body-bg, 3%) !default;
+$panel-bg:                    #1b1b1b; //lighten($body-bg, 3%) !default;
 $panel-body-padding:          15px !default;
 $panel-heading-padding:       10px 15px !default;
 $panel-footer-padding:        $panel-heading-padding !default;
@@ -714,7 +715,7 @@ $panel-inner-border:          rgba(0, 0, 0, 0.6) !default;
 $panel-footer-bg:             lighten($body-bg, 10%) !default;
 
 $panel-default-text:          $text-color !default;
-$panel-default-border:        rgba(0, 0, 0, 0.6) !default;
+$panel-default-border:        rgba(64, 64, 64, 0.6) !default;
 $panel-default-heading-bg:    $panel-footer-bg !default;
 
 $panel-primary-text:          #fff !default;

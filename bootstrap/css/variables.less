@@ -7,9 +7,9 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-base:              #000;
-@gray-darker:            #080808; // #222
-@gray-dark:              #101010;   // #333
+@gray-base:              #222;
+@gray-darker:            #000; // #222
+@gray-dark:              #111;   // #333
 @gray:                   #52575C; // #555
 @gray-light:             #7A8288;   // #999
 @gray-lighter:           #999; // #eee
@@ -143,6 +143,7 @@
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 @btn-font-weight:                normal;
+@btn-lightly-color:              #fff;
 
 @btn-default-color:              #ff8a00;
 @btn-default-bg:                 @gray-dark;
@@ -152,19 +153,19 @@
 @btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             @btn-primary-color;
 
-@btn-success-color:              @btn-default-color;
+@btn-success-color:              @btn-lightly-color;
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             @btn-success-bg;
 
-@btn-info-color:                 @btn-default-color;
+@btn-info-color:                 @btn-lightly-color;
 @btn-info-bg:                    @brand-info;
 @btn-info-border:                @btn-info-bg;
 
-@btn-warning-color:              @btn-default-color;
+@btn-warning-color:              @btn-lightly-color;
 @btn-warning-bg:                 @brand-warning;
 @btn-warning-border:             @btn-warning-bg;
 
-@btn-danger-color:               @btn-default-color;
+@btn-danger-color:               @btn-lightly-color;
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              @btn-danger-bg;
 
@@ -702,7 +703,7 @@
 //
 //##
 
-@panel-bg:                    lighten(@body-bg, 3%);
+@panel-bg:                    #1b1b1b; //lighten(@body-bg, 3%);
 @panel-body-padding:          15px;
 @panel-heading-padding:       10px 15px;
 @panel-footer-padding:        @panel-heading-padding;
@@ -713,7 +714,7 @@
 @panel-footer-bg:             lighten(@body-bg, 10%);
 
 @panel-default-text:          @text-color;
-@panel-default-border:        rgba(0, 0, 0, 0.6);
+@panel-default-border:        rgba(64, 64, 64, 0.6);
 @panel-default-heading-bg:    @panel-footer-bg;
 
 @panel-primary-text:          #fff;
