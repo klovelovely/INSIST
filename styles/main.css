@@ -630,6 +630,10 @@ input, button, a {
 dl dt, dl dd {
   line-height: 2; }
 
+select.form-control {
+  color: #fff;
+  background-color: #000; }
+
 .btn:hover, .btn:focus, .btn:active {
   border-color: #ff8a00; }
 

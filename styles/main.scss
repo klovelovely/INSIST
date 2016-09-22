@@ -37,6 +37,11 @@ dl {
     }
 }
 
+select.form-control {
+    color: #fff;
+    background-color: #000;
+}
+
 .btn {
     &:hover,
     &:focus,
@@ -109,7 +114,7 @@ dl {
 
 .dropdown-menu {
     > li {
-        min-width:123px;
+        min-width: 123px;
         float: left;
         text-align: center;
         > a {
