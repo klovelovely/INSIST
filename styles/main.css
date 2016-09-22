@@ -719,6 +719,7 @@ select.form-control {
   border-top: 5px solid #ff8a00;
   height: 210px;
   background: url("../images/footer-bg.jpg") no-repeat center top;
+  background-size: cover;
   color: #fff; }
 
 /*
