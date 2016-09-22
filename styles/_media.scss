@@ -9,10 +9,11 @@
 
     .global-header {
         .navbar-brand {
-            width: 100%;
+            width: auto;
             height: auto;
             img {
-                width: 100%;
+                width: auto;
+                height: 34px;
             }
         }
     }
@@ -24,7 +25,7 @@
                 .media-left {
                     display: block;
                 }
-                .media-body{
+                .media-body {
 
                 }
             }

@@ -600,10 +600,11 @@
 /* 移动端样式定制 */
 @media (max-width: 767px) {
   .global-header .navbar-brand {
-    width: 100%;
+    width: auto;
     height: auto; }
     .global-header .navbar-brand img {
-      width: 100%; }
+      width: auto;
+      height: 34px; }
 
   .global-container .page-news .media .media-left {
     display: block; } }
