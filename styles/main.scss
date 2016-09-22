@@ -6,6 +6,7 @@ $primary-color: #ff8a00;
 /* layout library */
 @import "layout";
 @import "typography";
+@import "media";
 
 /*
  * global
@@ -46,11 +47,11 @@ dl {
 
 .carousel-indicators {
     li {
-        opacity:.38;
-        transition:.3s all ease-out;
-        &.active{
-            width:30px;
-            opacity:.62;
+        opacity: .38;
+        transition: .3s all ease-out;
+        &.active {
+            width: 30px;
+            opacity: .62;
         }
     }
 }
@@ -106,8 +107,20 @@ dl {
     right: auto;
 }
 
-.dropdown-menu > li > a {
-    padding: 10px 25px;
+.dropdown-menu {
+    > li {
+        min-width:123px;
+        float: left;
+        text-align: center;
+        > a {
+            padding: 10px 25px;
+        }
+    }
+    &:after {
+        content: ' ';
+        display: block;
+        clear: both;
+    }
 }
 
 /*
@@ -145,7 +158,7 @@ dl {
  * Swiper
  */
 .swiper-container {
-    width: 60%;
+    width: 90%;
     height: 340px;
     margin-left: auto;
     margin-right: auto;

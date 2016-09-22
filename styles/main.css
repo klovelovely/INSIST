@@ -596,6 +596,17 @@
     line-height: 1.5;
     max-height: 3em; }
 
+/* 桌面版本定制  */
+/* 移动端样式定制 */
+@media (max-width: 767px) {
+  .global-header .navbar-brand {
+    width: 100%;
+    height: auto; }
+    .global-header .navbar-brand img {
+      width: 100%; }
+
+  .global-container .page-news .media .media-left {
+    display: block; } }
 /*
  * global
  */
@@ -667,8 +678,16 @@ dl dt, dl dd {
 .navbar-right .dropdown-menu {
   right: auto; }
 
-.dropdown-menu > li > a {
-  padding: 10px 25px; }
+.dropdown-menu > li {
+  min-width: 123px;
+  float: left;
+  text-align: center; }
+  .dropdown-menu > li > a {
+    padding: 10px 25px; }
+.dropdown-menu:after {
+  content: ' ';
+  display: block;
+  clear: both; }
 
 /*
 .dropdown-menu {
@@ -701,7 +720,7 @@ dl dt, dl dd {
  * Swiper
  */
 .swiper-container {
-  width: 60%;
+  width: 90%;
   height: 340px;
   margin-left: auto;
   margin-right: auto;

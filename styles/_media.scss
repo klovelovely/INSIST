@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 桌面版本定制  */
+@media (min-width: 768px) {
+}
+
+/* 移动端样式定制 */
+@media (max-width: 767px) {
+
+    .global-header {
+        .navbar-brand {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .global-container {
+
+        .page-news {
+            .media {
+                .media-left {
+                    display: block;
+                }
+                .media-body{
+
+                }
+            }
+        }
+
+    }
+
+}
