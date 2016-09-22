@@ -36,4 +36,20 @@
 
     }
 
+    .global-footer {
+        .foot-logo {
+            img {
+                display: block;
+                margin: 10px auto 30px;
+            }
+        }
+        .col-md-8 {
+            a, span {
+                display: block;
+                text-align: center;
+                line-height: 2;
+            }
+        }
+    }
+
 }

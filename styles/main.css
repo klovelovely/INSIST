@@ -609,7 +609,15 @@
       height: 34px; }
 
   .global-container .page-news .media .media-left {
-    display: block; } }
+    display: block; }
+
+  .global-footer .foot-logo img {
+    display: block;
+    margin: 10px auto 30px; }
+  .global-footer .col-md-8 a, .global-footer .col-md-8 span {
+    display: block;
+    text-align: center;
+    line-height: 2; } }
 /*
  * global
  */
