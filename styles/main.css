@@ -614,7 +614,7 @@
   .global-footer .foot-logo img {
     display: block;
     margin: 10px auto 30px; }
-  .global-footer .col-md-8 a, .global-footer .col-md-8 span {
+  .global-footer .col-md-8 * {
     display: block;
     text-align: center;
     line-height: 2; } }
