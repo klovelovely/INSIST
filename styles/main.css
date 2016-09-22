@@ -599,6 +599,8 @@
 /* 桌面版本定制  */
 /* 移动端样式定制 */
 @media (max-width: 767px) {
+  .global-header .navbar-toggle {
+    padding: 15px; }
   .global-header .navbar-brand {
     width: auto;
     height: auto; }

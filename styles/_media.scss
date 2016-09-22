@@ -8,6 +8,9 @@
 @media (max-width: 767px) {
 
     .global-header {
+        .navbar-toggle {
+            padding: 15px;
+        }
         .navbar-brand {
             width: auto;
             height: auto;
